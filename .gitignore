@@ -1,0 +1,15 @@
+# Local board. A fresh run creates this. Do not publish a machine's history.
+board.json
+board.json.tmp
+board-archive/
+
+# Runtime and secrets
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.log
+
+# Browser tooling output
+.playwright-mcp/
